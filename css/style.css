@@ -1,0 +1,77 @@
+/**styles the whole body section**/
+body {
+    margin: 0px;
+}
+
+/**styles the main section**/
+.main {
+    background-image: url("file:///C:/www/codingbootcamp/exercises/portfolio/images/background/bg1.jpeg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 797px;
+    background-size: cover;
+}
+@media screen and (min-width:1000px) {
+#container {
+    height:700px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+}
+/**styles the header section**/
+.header {
+    margin-top: 0px;
+    width: 1000px;
+}
+/**styles the logo**/
+.logo {
+    margin-top: 10px;
+    float: left;
+    /**margin-left: 10px;**/ /*incase you need logo side margin*/
+}
+/**styles the nav section**/
+nav {
+    float:right;
+    margin-top: 26px;
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+/**styles the nav bar**/
+.navbar {
+    color: white;
+    font-size: 20px;
+    margin-left:25px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+}
+/**styles the nav bar hover**/
+.navbar:hover {
+    text-decoration: underline;
+}
+span {
+    width:100%;
+}
+/**styles the main header hover**/
+h1 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding-top: 95px;
+    font-family: 'Open Sans', sans-serif;
+}
+/**styles the second header hover**/
+h2 {
+    font-size: 36px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    margin-top: -55px;
+    font-family: 'Open Sans', sans-serif;
+}

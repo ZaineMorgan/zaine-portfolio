@@ -1,0 +1,200 @@
+/**styles the whole body section**/
+body {
+    margin: 0px;
+}
+
+/**styles the main section**/
+.head {
+    background-image: url("file:///C:/www/codingbootcamp/exercises/portfolio/images/background/bg1.jpeg"); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 350px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media screen and (min-width:1000px) {
+#header {
+    height:700px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+}
+/**styles the header section**/
+.header {
+    margin-top: 0px;
+    width: 1000px;
+}
+/**styles the logo**/
+.logo {
+    margin-top: 10px;
+
+    float: left;
+    /**margin-left: 10px;**/ /*incase you need logo side margin*/
+}
+/**styles the nav section**/
+nav-p {
+    float:right;
+    margin-top: 26px;
+    font-size:20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+/**styles the nav bar**/
+.navbar {
+    color: white;
+    font-size: 20px;
+    margin-left:25px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: bold;
+}
+/**styles the nav bar hover**/
+.navbar:hover {
+    text-decoration: underline;
+}
+span {
+    width:100%;
+}
+/**styles the main header **/
+h1 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+/*styles the intro header for portfolio*/
+.textintro {
+    padding-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    color: #C3D4DC;
+    text-align: center;
+}
+
+
+/**styles the porfolio boxes*/
+.portfolio {
+    width: 300px;
+    height: 250px;
+    
+}
+/**styles the porfolio boxes*/
+.portfolio-padding {
+    padding-left:46px;
+    width: 300px;
+    height: 250px;
+    
+}
+/**styles the porfolio boxes when hovered*/
+.portfolio:hover {
+    width: 300px;
+    height: 250px;
+    box-shadow: 10px 10px 5px #888888;
+}
+/**styles the porfolio boxes when hovered*/
+.portfolio-padding:hover {
+    padding-left:46px;
+    width: 300px;
+    height: 250px;
+    box-shadow: 10px 10px 5px #888888;
+}
+/**styles the individual porfolio boxes*/
+.one {
+    margin-top: 46px;
+}
+/**styles the individual porfolio boxes*/
+.two {
+    margin-top: 46px;
+}
+/**styles the individual porfolio boxes*/
+.three {
+    margin-top: 46px;
+}
+/**styles the individual porfolio boxes*/
+.four {
+    margin-top: 46px;
+}
+
+/*FOOTER SECTION*/
+footer {
+    width: 100%;
+    height:400px;
+    background-color: #3B9CDC;
+    margin-top: 990px;
+}
+ .foot {
+     width: 1000px;
+     height: 100%;
+     margin: 0 auto;
+ }
+
+div.social {
+    float: left;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+   font-size: 20px;
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+}
+
+div.contact {
+    float:right;
+    margin-right: 90px;
+    margin-top: 20px
+    font-family: 'Open Sans', sans-serif;
+}
+
+label {
+    color: #fff;
+}
+input.text {
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+textarea.message {
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+label {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+input.text {
+    height: 25px;
+    width: 250px;
+    border-radius: 3px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+textarea.message {
+    height: 100px;
+    width: 250px;
+    border-radius: 3px;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input.submit{
+    height: 30px;
+    width: 70px;
+    background-color: white;
+    color: #3B9CDC;
+    font-family: 'Open Sans', sans-serif;
+    
+}
